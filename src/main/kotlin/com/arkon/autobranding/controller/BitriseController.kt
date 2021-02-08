@@ -77,11 +77,14 @@ class BitriseController: Controller() {
         keywordsCh.isVisible = false
         keywordsCh.isManaged = false
 
-        root.right = buttonsHbox
+        root.bottom = buttonsHbox
+        root.top = checkboxsHBox
         buttonsHbox.alignment = Pos.BOTTOM_RIGHT
         buttonsHbox.padding = Insets(20.00)
         buttonsHbox.resize(createYmlButton.width, createYmlButton.height)
         checkboxsHBox.spacing = 10.00
+        checkboxsHBox.alignment = Pos.TOP_RIGHT
+        checkboxsHBox.padding = Insets(20.00)
     }
 
     fun hideShowLanguageFields(descriptionField: Field, keywordField: Field, isLanguage: SimpleBooleanProperty) {

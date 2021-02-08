@@ -8,6 +8,8 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/no/tornado/tornadofx/1.7.17/tornadofx-1.7.17-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/no/tornado/tornadofx/1.7.17/tornadofx-1.7.17-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/no/tornado/tornadofx/1.7.17/tornadofx-1.7.17-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
